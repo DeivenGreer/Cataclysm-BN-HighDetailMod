@@ -322,6 +322,7 @@
       [ "bottle_folding", 10 ],
       [ "mess_tin", 10 ],
       [ "survival_kit", 30 ],
+      [ "herbal remedies kit", 5 ],
       [ "premium_survival_kit", 3 ]
     ]
   },

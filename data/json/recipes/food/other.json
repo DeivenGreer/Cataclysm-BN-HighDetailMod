@@ -942,6 +942,24 @@
   },
   {
     "type": "recipe",
+    "result": "cambium_bark",
+    "id_suffix": "from_wood",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_OTHER",
+    "//": "harvesting of edible Cambium bark from pine wood. Can be further processed into flour, or used as an ingredient as is.",
+    "skill_used": "cooking",
+    "difficulty": 7,
+    "time": "1 h",
+    "batch_time_factors": [ 50, 3 ],
+    "book_learn": [ [ "adv_chemistry", 7 ], [ "textbook_chemistry", 8 ], [ "recipe_labchem", 6 ] ],
+    "qualities": [ { "id": "CHEM", "level": 2 } ],
+    "tools": [ [ [ "knives", 1, "LIST" ] ] ],
+    "components": [
+      [ [ "pine_bough", 3 ]]
+    ]
+  },
+  {
+    "type": "recipe",
     "result": "flour",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_OTHER",
@@ -962,7 +980,8 @@
         [ "oats", 4 ],
         [ "starch", 1 ],
         [ "dry_rice", 5 ],
-        [ "rice_bran", 5 ]
+        [ "rice_bran", 5 ],
+        [ "cambium_bark, 1"]
       ]
     ]
   },
@@ -1160,7 +1179,8 @@
         [ "oats", 4 ],
         [ "starch", 1 ],
         [ "dry_rice", 5 ],
-        [ "rice_bran", 5 ]
+        [ "rice_bran", 5 ],
+        [ "cambium_bark, 1"]
       ]
     ]
   },
@@ -1370,7 +1390,8 @@
         [ "acorns_cooked", 2 ],
         [ "oats", 4 ],
         [ "starch", 1 ],
-        [ "dry_rice", 5 ]
+        [ "dry_rice", 5 ],
+        [ "cambium_bark, 1"]
       ]
     ]
   },
@@ -2205,5 +2226,20 @@
     "qualities": [ { "id": "COOK", "level": 2 }, { "id": "HAMMER", "level": 1 } ],
     "tools": [ [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [ [ [ "seed_rice", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "soup_pocket",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_MEAT",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "20 m",
+    "charges": 2,
+    "autolearn": true,
+    "batch_time_factors": [ 80, 5 ],
+    "qualities": [ { "id": "COOK", "level": 3 } ],
+    "tools": [ [ [ "surface_heat", 5, "LIST" ] ] ],
+    "using": [ [ "meat_soup_ingredients", 1 ] ]
   }
 ]

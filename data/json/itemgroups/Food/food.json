@@ -47,6 +47,7 @@
       { "item": "lobster_salted", "prob": 15 },
       { "item": "meat_salted", "prob": 15 },
       { "item": "dry_beans", "prob": 40 },
+      { "item": "dry_peas", "prob": 20 },
       { "item": "dry_lentils", "prob": 30 },
       { "item": "dry_rice", "prob": 40 }
     ]
@@ -153,6 +154,7 @@
       { "item": "pelmeni", "prob": 1 },
       { "item": "canned_liver", "prob": 1 },
       { "item": "can_beans", "prob": 1 },
+      { "item": "can_peas", "prob": 1 },
       { "item": "can_tomato", "prob": 1 },
       { "item": "broth", "prob": 1 },
       { "item": "broth_bone", "prob": 1 },
@@ -179,6 +181,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "can_beans", "prob": 40 },
+      { "item": "can_peas", "prob": 20 },
       { "item": "pork_beans", "prob": 40 },
       { "item": "can_tomato", "prob": 40 },
       { "item": "can_corn", "prob": 35 },
@@ -250,6 +253,7 @@
       { "item": "fish_pickled", "prob": 8, "charges": 2, "container-item": "jar_glass_sealed" },
       { "item": "lutefisk", "prob": 1 },
       { "item": "dry_beans", "prob": 40 },
+      { "item": "dry_peas", "prob": 20 },
       { "item": "dry_lentils", "prob": 40 },
       { "item": "dry_rice", "prob": 40 },
       { "item": "meat_pickled", "prob": 6, "charges": 2, "container-item": "jar_glass_sealed" },
@@ -275,6 +279,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "can_beans", "prob": 4, "charges": 12, "container-item": "can_food_big" },
+      { "item": "can_peas", "prob": 4, "charges": 12, "container-item": "can_food_big" },
       { "item": "can_tomato", "prob": 4, "charges": 24, "container-item": "can_food_big" },
       { "item": "can_pineapple", "prob": 3, "charges": 12, "container-item": "can_food_big" },
       { "item": "can_corn", "prob": 3, "charges": 12, "container-item": "can_food_big" },

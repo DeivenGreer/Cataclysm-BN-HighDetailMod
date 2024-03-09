@@ -104,7 +104,7 @@
     "autolearn": true,
     "batch_time_factors": [ 80, 1 ],
     "tools": [ [ [ "dehydrator", 25 ], [ "char_smoker", 25 ] ] ],
-    "components": [ [ [ "mushroom", 1 ], [ "mushroom_morel", 1 ] ] ]
+    "components": [ [ [ "mushroom", 1 ], [ "mushroom_morel", 1 ], ["mushroom_puffball", 1] ] ]
   },
   {
     "type": "recipe",
@@ -215,6 +215,52 @@
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "food_processor", 20 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
     "components": [ [ [ "dry_meat", 1 ], [ "dry_fish", 3 ] ] ]
+  },
+  {
+    "result": "protein_powder",
+    "type": "recipe",
+    "id_suffix": "with_from_pea_protein",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRY",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "charges": 4,
+    "time": "12 m",
+    "batch_time_factors": [ 50, 3 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 } ],
+    "tools": [ [ [ "mortar_pestle", -1 ] ], [ [ "surface_heat", 25, "LIST" ] ] ],
+    "components": [ [ [ "dry_peas", 1 ]] ]
+  },
+  {
+    "result": "protein_powder",
+    "type": "recipe",
+    "id_suffix": "with_from_pea_food_processor",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRY",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "charges": 4,
+    "time": "9 m",
+    "batch_time_factors": [ 50, 3 ],
+    "autolearn": true,
+    "qualities": [ { "id": "CHEM", "level": 2 } ],
+    "tools": [ [ [ "food_processor", 20 ] ], [ [ "surface_heat", 10, "LIST" ] ] ],
+    "components": [ [ [ "dry_peas", 1 ] ] ] 
+  },
+  {
+    "type": "recipe",
+    "result": "dry_peas",
+    "charges": 1,
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRY",
+    "skill_used": "cooking",
+    "difficulty": 2,
+    "time": "40 m",
+    "autolearn": true,
+    "batch_time_factors": [ 80, 1 ],
+    "tools": [ [ [ "dehydrator", 25 ], [ "char_smoker", 25 ] ] ],
+    "components": [ [ [ "raw_peas", 1 ], ["can_peas", 1 ] ] ]
   },
   {
     "type": "recipe",

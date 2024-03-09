@@ -3299,6 +3299,39 @@
     "flags": [ "BLIND_EASY", "UNCRAFT_LIQUIDS_CONTAINED" ]
   },
   {
+    "result": "IFAK",
+    "type": "uncraft",
+    "time": "6 s",
+    "components": [
+      [ [ "medical_tape", 10 ] ],
+      [ [ "aspirin", 2 ] ],
+      [ [ "antiparasitic", 1 ] ],
+      [ [ "antibiotic", 1 ] ],
+      [ [ "chem_hydrogen_peroxide", 10 ] ],
+      [ [ "bfipowder", 5 ] ],
+      [ [ "bandages", 2 ] ],
+      [ [ "quikclot", 2 ] ]
+    ],
+    "flags": [ "BLIND_EASY", "UNCRAFT_LIQUIDS_CONTAINED" ]
+  },
+  {
+    "result": "Herbal Remedies Kit",
+    "type": "uncraft",
+    "time": "6 s",
+    "components": [
+      [ [ "bandages_makeshift_boiled", 5 ] ],
+      [ [ "handrolled_cig", 1 ] ],
+      [ [ "cotton_ball", 5 ] ],
+      [ [ "hi_q_wax", 1 ] ],
+      [ [ "chem_hydrogen_peroxide", 10 ] ],
+      [ [ "mugwort_oil", 2 ] ],
+      [ [ "poppy_sleep", 2 ] ],
+      [ [ "thyme_oil", 2 ] ],
+      [ [ "cattail_jelly", 2 ] ]
+    ],
+    "flags": [ "BLIND_EASY", "UNCRAFT_LIQUIDS_CONTAINED" ]
+  },
+  {
     "result": "survival_kit",
     "type": "uncraft",
     "time": "6 s",

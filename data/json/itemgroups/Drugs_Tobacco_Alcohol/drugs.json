@@ -83,7 +83,8 @@
       { "item": "morphine", "prob": 20 },
       { "item": "quikclot", "prob": 20 },
       { "item": "smoxygen_tank", "prob": 20 },
-      { "item": "tramadol", "prob": 20 }
+      { "item": "tramadol", "prob": 20 },
+      { "item": "IFAK", "prob": 10 }
     ]
   },
   {
@@ -100,6 +101,7 @@
       [ "bandages", 50 ],
       [ "cotton_ball", 50 ],
       [ "1st_aid", 35 ],
+      [ "IFAK", 10 ],
       [ "saline", 25 ],
       [ "contacts", 10 ],
       [ "vitamins", 75 ],

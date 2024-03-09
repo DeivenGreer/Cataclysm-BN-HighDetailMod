@@ -160,6 +160,7 @@
       { "item": "syringe", "prob": 4 },
       { "item": "adrenaline_injector", "prob": 2 },
       { "item": "1st_aid", "prob": 4 },
+      { "item": "herbal remedies kit", "prob": 2 },
       { "item": "saline", "prob": 1 },
       { "item": "extinguisher", "prob": 20 },
       { "item": "hotplate", "prob": 10 },
