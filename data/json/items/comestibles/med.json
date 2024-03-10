@@ -17,7 +17,6 @@
   },  
   {
     "id": "IFAK",
-    "copy-from": "1st_aid",
     "type": "GENERIC",
     "category": "drugs",
     "name": { "str": "Individual First Aid Kit (IFAK)" },
@@ -35,7 +34,6 @@
   },
   {
     "id": "herbal remedies kit",
-    "copy-from": "1st_aid",
     "type": "GENERIC",
     "category": "drugs",
     "name": { "str": "Herbal Remedies Kit" },

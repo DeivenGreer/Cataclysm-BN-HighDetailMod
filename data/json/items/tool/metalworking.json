@@ -338,7 +338,6 @@
     "id": "tongs_wooden",
     "copy-from": "tongs",
     "type": "GENERIC",
-    "category": "tools",
     "name": { "str": "pair of wooden tongs", "str_pl": "pairs of wooden tongs" },
     "description": "These are long, wooden tongs.  They are commonly used for cooking or in metalworking fabrication recipes.",
     "weight": "340 g",

@@ -225,7 +225,7 @@
     "autolearn": true,
     "tools": [ [ [ "surface_heat", 20, "LIST" ] ] ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SAW_W", "level": 1 } ],
-    "components": [ [ [ "2x4", 6 ] ], [ [ "copper_scrap_equivalent", 2, "LIST" ] ] ]
+    "components": [ [ [ "2x4", 6 ] ], [ [ "per_scrap_equivalent", 2, "LIST" ] ] ]
   },
   {
     "type": "recipe",
