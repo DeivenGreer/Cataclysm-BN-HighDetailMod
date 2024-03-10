@@ -582,7 +582,7 @@
       [ [ "tongs", -1 ] ],
       [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ]
     ],
-    "components": [[[ "clay", 2 ], ["clay_lump", 1]], ["ash", 5] ]
+    "components": [[ ["clay_lump", 1]], [["ash", 5]] ]
   },
   {
     "type": "recipe",
@@ -593,8 +593,8 @@
     "difficulty": 2,
     "time": "30 m",
     "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [[[ "wood", 2 ], ["wood_beam", 2]], ["ash", 5]]
+    "qualities": [ { "id": "CHISEL", "level": 1 } ],
+    "components": [[[ "long_pole", 2 ], ["log", 1], ["wood_beam", 2]], [["ash", 5]] ]
   },
   {
     "type": "recipe",

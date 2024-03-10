@@ -1847,8 +1847,7 @@
     "batch_time_factors": [ 80, 5 ],
     "qualities": [ { "id": "COOK", "level": 3 } ],
     "tools": [ [ [ "surface_heat", 100, "LIST" ] ] ],
-    "using": [ [ "veggy_soup_ingredients", 2 ] ],
-    "components": [ [ [ "jar_glass", 1 ] ], [ [ "water", 10 ], [ "dandelion", 10 ] ] ]
+    "components": [ [ [ "jar_glass", 1 ] ], [ [ "water", 10 ], [ "raw_dandelion", 10 ] ] ]
   },
   {
     "type": "recipe",

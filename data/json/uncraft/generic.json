@@ -3305,8 +3305,8 @@
     "components": [
       [ [ "medical_tape", 10 ] ],
       [ [ "aspirin", 2 ] ],
-      [ [ "antiparasitic", 1 ] ],
-      [ [ "antibiotic", 1 ] ],
+      [ [ "antiparasitic", 2 ] ],
+      [ [ "antibiotics", 2 ] ],
       [ [ "chem_hydrogen_peroxide", 10 ] ],
       [ [ "bfipowder", 5 ] ],
       [ [ "bandages", 2 ] ],

@@ -834,8 +834,6 @@
     "copy-from": "jar_3l_glass",
     "name": { "str": "3L clay jar" },
     "description": "A three-liter clay jar with a metal screw top lid, used for canning.",
-    "weight": "365 g",
-    "bashing": 7,
     "material": "clay",
     "symbol": ")",
     "color": "brown",
@@ -888,6 +886,7 @@
   },
   {
     "id": "jar_clay",
+    "type": "CONTAINER",
     "copy-from": "jar_glass",
     "name": { "str": "clay jar" },
     "description": "A half-liter clay jar with a metal screw top lid, used for canning.",

@@ -899,7 +899,7 @@
     "comestible_type": "FOOD",
     "weight": "194 g",
     "symbol": "%",
-    "healthy": 0,
+    "healthy": 1,
     "calories": 250,
     "description": "Raw, uncooked peas. These are safe to eat raw, off the vine. Can be powdered into protein upon drying.",
     "volume": "250 ml",

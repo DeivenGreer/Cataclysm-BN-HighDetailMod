@@ -955,7 +955,7 @@
     "qualities": [ { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "knives", 1, "LIST" ] ] ],
     "components": [
-      [ [ "pine_bough", 3 ]]
+      [ [ "pine_bough", 10 ]]
     ]
   },
   {
@@ -1180,7 +1180,7 @@
         [ "starch", 1 ],
         [ "dry_rice", 5 ],
         [ "rice_bran", 5 ],
-        [ "cambium_bark, 1"]
+        [ "cambium_bark", 1]
       ]
     ]
   },
@@ -1391,7 +1391,7 @@
         [ "oats", 4 ],
         [ "starch", 1 ],
         [ "dry_rice", 5 ],
-        [ "cambium_bark, 1"]
+        [ "cambium_bark", 1]
       ]
     ]
   },

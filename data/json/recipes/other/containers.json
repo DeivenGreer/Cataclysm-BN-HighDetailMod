@@ -316,7 +316,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CHISEL", "level": 1 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "pipe", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 150 ] ] ],
-    "components": [ [ [ "clay_lump", 2 ], [ "clay", 10 ] ], [["water", 4], ["water_clean", 4]]]
+    "components": [ [ [ "clay_lump", 2 ]], [["water", 4], ["water_clean", 4]]]
   },
   {
     "type": "recipe",
@@ -329,7 +329,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CHISEL", "level": 1 } ],
     "tools": [ [ [ "tongs", -1 ] ], [ [ "pipe", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 150 ] ] ],
-    "components": [ [ [ "clay_lump", 1 ], [ "clay", 5 ] ], [["water", 2], ["water_clean", 2]]]
+    "components": [ [ [ "clay_lump", 1 ] ], [["water", 2], ["water_clean", 2]]]
   },
   {
     "type": "recipe",
