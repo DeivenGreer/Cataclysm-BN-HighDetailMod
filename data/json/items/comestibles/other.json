@@ -794,7 +794,7 @@
     "price_postapoc": "150 cent",
     "material": "powder",
     "volume": "250 ml",
-    "vitamins": [ [ "calcium", 56 ], [ "iron", 22 ], ["vitB", 30] ["vitC", 20] ],
+    "vitamins": [ [ "calcium", 56 ], [ "iron", 22 ], ["vitB", 30], ["vitC", 20] ],
     "fun": -9
   },
   {
@@ -816,5 +816,5 @@
     "volume": "30 ml",
     "vitamins": [ [ "calcium", 10 ], [ "iron", 10 ]],
     "fun": -1
-  },
+  }
 ]

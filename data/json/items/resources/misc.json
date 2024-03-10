@@ -1,5 +1,25 @@
 [
   {
+    "id": "pipe_clay",
+    "copy-from": "pipe",
+    "type": "GENERIC",
+    "weapon_category": [ "BATONS" ],
+    "name": { "str": "pipe" },
+    "description": "An earthenware pipe, makes a good melee weapon.  Useful in a few crafting recipes.",
+    "category": "spare_parts",
+    "weight": "950 g",
+    "to_hit": 1,
+    "color": "light_gray",
+    "symbol": "/",
+    "material": [ "clay" ],
+    "qualities": [ [ "HAMMER", 1 ] ],
+    "techniques": [ "WBLOCK_1" ],
+    "volume": "500 ml",
+    "bashing": 9,
+    "price": "75 USD",
+    "price_postapoc": "10 cent"
+  }, 
+  {
     "id": "bee_sting",
     "type": "GENERIC",
     "weapon_category": [ "KNIVES" ],

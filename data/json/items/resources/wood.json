@@ -1,5 +1,25 @@
 [
   {
+    "id": "pipe_wood",
+    "copy-from": "pipe",
+    "type": "GENERIC",
+    "weapon_category": [ "BATONS" ],
+    "name": { "str": "pipe" },
+    "description": "A wooden pipe, makes a good melee weapon.  Useful in a few crafting recipes.",
+    "category": "spare_parts",
+    "weight": "750 g",
+    "to_hit": 1,
+    "color": "brown",
+    "symbol": "/",
+    "material": [ "wood" ],
+    "qualities": [ [ "HAMMER", 1 ] ],
+    "techniques": [ "WBLOCK_1" ],
+    "volume": "500 ml",
+    "bashing": 8,
+    "price": "75 USD",
+    "price_postapoc": "10 cent"
+  },
+  {
     "type": "GENERIC",
     "id": "log",
     "symbol": "/",

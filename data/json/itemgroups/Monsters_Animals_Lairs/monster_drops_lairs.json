@@ -113,6 +113,7 @@
       { "item": "peach", "prob": 1 },
       { "item": "cranberries", "prob": 15 },
       { "item": "watermelon", "prob": 2 },
+      { "item": "honeydew", "prob": 2 },
       { "item": "melon", "prob": 1 },
       { "item": "raspberries", "prob": 3 },
       { "item": "blackberries", "prob": 3 },

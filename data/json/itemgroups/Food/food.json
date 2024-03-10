@@ -11,6 +11,7 @@
       { "item": "cheese_hard", "prob": 5 },
       { "item": "veggy_pickled", "prob": 50, "charges": 2, "container-item": "jar_glass_sealed" },
       { "item": "jar_sauerkraut_pickled", "prob": 5 },
+      { "item": "dandelion_jelly", "prob": 5, "charges": 4, "container-item": "jar_glass_sealed" },
       { "item": "meat_pickled", "prob": 20, "charges": 2, "container-item": "jar_glass_sealed" },
       { "item": "potted_meat", "prob": 20, "charges": 2, "container-item": "jar_glass_sealed" },
       { "item": "fish_pickled", "prob": 30, "charges": 2, "container-item": "jar_glass_sealed" },
@@ -189,7 +190,7 @@
       { "item": "con_milk", "prob": 30 },
       { "item": "can_spam", "prob": 30 },
       { "item": "can_pineapple", "prob": 30 },
-      { "item": "can_peach", "prob": 30 },
+      { "item": "can_peach", "prob": 30 }, 
       { "item": "can_coconut", "prob": 10 },
       { "item": "can_sardine", "prob": 14 },
       { "item": "can_tuna", "prob": 35 },
@@ -246,6 +247,7 @@
       { "item": "cooking_oil2", "prob": 30 },
       { "item": "veggy_pickled", "prob": 8, "charges": 2, "container-item": "jar_glass_sealed" },
       { "item": "jar_sauerkraut_pickled", "prob": 5 },
+      { "item": "dandelion_jelly", "prob": 5, "charges": 4, "container-item": "jar_glass_sealed" },
       { "item": "sports_drink", "prob": 10 },
       { "item": "protein_shake", "prob": 10 },
       { "item": "dogfood", "prob": 5, "container-item": "can_medium" },
@@ -383,6 +385,7 @@
       { "item": "peach", "prob": 10, "charges": [ 1, 6 ] },
       { "item": "cranberries", "prob": 7, "charges": [ 1, 6 ] },
       { "item": "watermelon", "prob": 5, "charges": [ 1, 6 ] },
+      { "item": "honeydew", "prob": 5, "charges": [ 1, 6 ] },
       { "item": "melon", "prob": 5, "charges": [ 1, 6 ] },
       { "item": "mango", "prob": 10, "charges": [ 1, 6 ] },
       { "item": "pomegranate", "prob": 5, "charges": [ 1, 6 ] },
@@ -634,6 +637,7 @@
       { "group": "fresh_produce", "prob": 75 },
       { "item": "pickle", "prob": 10, "charges": [ 1, 2 ], "container-item": "jar_glass" },
       { "item": "sauerkraut", "prob": 5, "charges": [ 1, 2 ], "container-item": "jar_glass" },
+      { "item": "dandelion_jelly", "prob": 4, "charges": [ 1, 2 ], "container-item": "jar_glass" },
       { "item": "veggy_canned", "prob": 5, "charges": [ 1, 2 ], "container-item": "jar_glass" },
       { "item": "veggy_pickled", "prob": 5, "charges": [ 1, 2 ], "container-item": "jar_glass" }
     ]
@@ -713,6 +717,7 @@
       {
         "collection": [
           { "item": "jam_fruit", "charges": 16, "container-item": "jar_glass_sealed", "prob": 50 },
+          { "item": "jam_fruit", "charges": 4, "container-item": "dandelion_jelly", "prob": 5 },
           { "item": "jam_fruit", "charges": [ 8, 16 ], "container-item": "jar_glass" }
         ],
         "prob": 18

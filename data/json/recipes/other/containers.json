@@ -307,6 +307,32 @@
   },
   {
     "type": "recipe",
+    "result": "jar_3l_clay",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "difficulty": 4,
+    "time": "1 h 30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CHISEL", "level": 1 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "pipe", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 150 ] ] ],
+    "components": [ [ [ "clay_lump", 2 ], [ "clay", 10 ] ], [["water", 4], ["water_clean", 4]]]
+  },
+  {
+    "type": "recipe",
+    "result": "jar_clay",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "autolearn": true,
+    "qualities": [ { "id": "CHISEL", "level": 1 } ],
+    "tools": [ [ [ "tongs", -1 ] ], [ [ "pipe", -1 ] ], [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ], [ [ "forge", 150 ] ] ],
+    "components": [ [ [ "clay_lump", 1 ], [ "clay", 5 ] ], [["water", 2], ["water_clean", 2]]]
+  },
+  {
+    "type": "recipe",
     "result": "bottle_glass",
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_CONTAINERS",

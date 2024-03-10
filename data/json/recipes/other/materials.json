@@ -570,6 +570,34 @@
   },
   {
     "type": "recipe",
+    "result": "pipe_clay",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "tools": [ 
+      [ [ "surface_heat", 15, "LIST" ] ] ,
+      [ [ "tongs", -1 ] ],
+      [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ]
+    ],
+    "components": [[[ "clay", 2 ], ["clay_lump", 1]], ["ash", 5] ]
+  },
+  {
+    "type": "recipe",
+    "result": "pipe_wood",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [[[ "wood", 2 ], ["wood_beam", 2]], ["ash", 5]]
+  },
+  {
+    "type": "recipe",
     "result": "plastic_chunk",
     "id_suffix": "from_plastic_bags",
     "category": "CC_OTHER",

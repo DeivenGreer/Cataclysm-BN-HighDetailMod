@@ -35,6 +35,7 @@
     "tools": [
       [
         [ "hotplate", 1 ],
+        [ "clay_hydria", 1 ],
         [ "multi_cooker", 1 ],
         [ "char_smoker", 1 ],
         [ "toolset", 1 ],
